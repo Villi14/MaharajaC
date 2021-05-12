@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/villi/M/MaharajaC/build",
-  "command": "/bin/clang++-10    -g   -std=gnu++17 -o CMakeFiles/MaharajaC.dir/main.cpp.o -c /home/villi/M/MaharajaC/main.cpp",
-  "file": "/home/villi/M/MaharajaC/main.cpp"
-}
-]
