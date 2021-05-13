@@ -16,7 +16,7 @@ void Game::play()
     mScore = 100;
 }
 
-int Game::shudown() 
+int Game::shutdown() 
 {
     mState = State::end;
     return mScore;

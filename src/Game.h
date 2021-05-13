@@ -11,7 +11,7 @@ public:
     Game();
     ~Game();
     void play();
-    int shudown();
+    int shutdown();
 private:
     State mState;
     int mScore;  
