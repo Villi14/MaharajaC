@@ -3,13 +3,13 @@
 #include <string>
 #include <Game.h>
 
-using namespace std;
-
-int main()
+int main(const int argc, const char *argv[])
 {
-    string text{"Start Game!"};
-    cout << text << endl;
-    maharaja::Game game(20);
-    return 0;
+    m::Game game;
+    game.play();
+    int score = game.shudown();
+    std::cout << score << std::endl;
+
+    return EXIT_SUCCESS;
 }
 

@@ -1,14 +1,23 @@
-#pragma once
+#ifndef GAME_H
+#define GAME_H
 
-namespace maharaja {
+#include "State.h"
+
+namespace m {
 
 class Game
 {
 public:
-    Game(int value);
+    Game();
     ~Game();
+    void play();
+    int shudown();
 private:
-    int mValue;  
+    State mState;
+    int mScore;  
 };
 
-}
+} // !m
+
+#endif // !GAME_H
+
